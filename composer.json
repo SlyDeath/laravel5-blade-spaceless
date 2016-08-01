@@ -1,0 +1,21 @@
+{
+    "name": "slydeath/laravel5-blade-spaceless",
+    "description": "Минификация шаблонов Blade",
+    "license": "MIT",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "SlyDeath",
+            "email": "slyrs@yandex.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "SlyDeath\\Spaceless\\": "src/"
+        }
+    }
+}
