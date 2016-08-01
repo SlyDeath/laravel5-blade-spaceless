@@ -1,4 +1,7 @@
 # Минификация шаблонов Blade для Laravel 5
+[![Latest Stable Version](https://poser.pugx.org/slydeath/laravel5-blade-spaceless/v/stable)](https://packagist.org/packages/slydeath/laravel5-blade-spaceless)
+[![Total Downloads](https://poser.pugx.org/slydeath/laravel5-blade-spaceless/downloads)](https://packagist.org/packages/slydeath/laravel5-blade-spaceless)
+[![License](https://poser.pugx.org/slydeath/laravel5-blade-spaceless/license)](https://packagist.org/packages/slydeath/laravel5-blade-spaceless)
 
 ## Установка
 
