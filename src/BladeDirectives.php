@@ -6,8 +6,6 @@ class BladeDirectives
 {
     /**
      * Директива @spaceless
-     *
-     * @return bool
      */
     public function spaceless()
     {
@@ -19,7 +17,7 @@ class BladeDirectives
     /**
      * Директива @endspaceless
      *
-     * @return string
+     * @return string|null
      *
      * @throws \Exception
      */
