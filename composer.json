@@ -2,7 +2,6 @@
     "name": "slydeath/laravel5-blade-spaceless",
     "description": "Минификация шаблонов Blade",
     "license": "MIT",
-    "version": "1.1",
     "authors": [
         {
             "name": "SlyDeath",
