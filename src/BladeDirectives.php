@@ -34,7 +34,7 @@ class BladeDirectives
 
             // http://php.net/manual/en/pcre.configuration.php#ini.pcre.recursion-limit
             if ($result !== null) {
-                $result = preg_replace('~>(\s+([^<]*)\s+|\s+)<~Si', '>$2<', $result);
+                $result = preg_replace('~>(\s*)<~Si', '><', $result);
             }
 
             return ($result !== null) ? $result : $buffer;
