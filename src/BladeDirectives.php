@@ -32,11 +32,6 @@ class BladeDirectives
             $regexp = '~(?>[^\S]\s*|\s{2,})(?=[^<]*+(?:<(?!/?(?:' . $expelled_tags . ')\b)[^<]*+)*+(?:<(?>' . $expelled_tags . ')\b|\z))~Six';
             $result = preg_replace($regexp, ' ', $buffer);
 
-            // http://php.net/manual/en/pcre.configuration.php#ini.pcre.recursion-limit
-            if ($result !== null) {
-                $result = preg_replace('~>(\s*)<~Si', '><', $result);
-            }
-
             return ($result !== null) ? $result : $buffer;
         }
 
